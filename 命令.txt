@@ -1,0 +1,12 @@
+npm install react-native-maps --save
+
+npm install  react-native-tab-navigator --save
+
+npm install react-native-deprecated-custom-components  --save
+
+
+万能钥匙
+react-native start --reset-cache 
+adb reverse tcp:8081 tcp:8081
+
+vscode
