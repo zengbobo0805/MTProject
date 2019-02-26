@@ -8,9 +8,10 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, TextInput, Image, StatusBar,ScrollView} from 'react-native';
+import {Platform, StyleSheet, Text, View, TextInput, Image, StatusBar, ScrollView} from 'react-native';
 import HomeDetail from './HomeDetail';
 import HomeTopView from './HomeTopView';
+import HomeMiddleView from './HomeMiddleView';
 
 var Dimensions = require('Dimensions')
 var {width, height} = Dimensions.get('window');
@@ -35,7 +36,8 @@ export default class Home extends Component<Props> {
                 />
                 {this.renderNavBar()}
                 <ScrollView>
-                    <HomeTopView key={1}/>
+                    <HomeTopView/>
+                    <HomeMiddleView/>
                 </ScrollView>
 
 

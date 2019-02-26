@@ -5,6 +5,7 @@ import {Navigator} from "react-native-deprecated-custom-components"
 
 import Home from '../home/Home'
 import Find from '../find/Find'
+// import FindTest from '../find/FindTest'
 import Mine from '../mine/Mine'
 import Order from '../order/Order'
 
